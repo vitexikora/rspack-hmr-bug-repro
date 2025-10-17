@@ -1,0 +1,38 @@
+{
+  "name": "rspack-bug-repro",
+  "version": "32.0.0",
+  "description": "Rspack HMR Bug reproduction project",
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "start": "rsbuild dev"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "react",
+    "reactjs"
+  ],
+  "author": "Vit Sikora",
+  "bugs": {},
+  "dependencies": {
+    "@rsbuild/core": "^1.5.17",
+    "@rsbuild/plugin-react": "^1.4.1",
+    "@types/md5": "^2.3.6",
+    "@types/node": "^24.8.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/webpack-env": "^1.18.8",
+    "es-toolkit": "^1.40.0",
+    "md5": "^2.3.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.9.3"
+  },
+  "moduleRoots": [
+    "src"
+  ],
+  "engines": {
+    "pnpm": ">=10",
+    "node": ">=22"
+  }
+}

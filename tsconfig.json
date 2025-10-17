@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "./dist/",
+    "module": "ESNext",
+    "target": "ES2023",
+    "lib": ["DOM", "ES2023"],
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": ["webpack-env", "node", "@rsbuild/core/types"]
+  },
+  "include": ["./src/**/*", "*.ts"],
+  "exclude": ["node_modules", "./../node_modules"],
+  "watchOptions": {
+    "watchFile": "useFsEventsOnParentDirectory",
+    "watchDirectory": "UseFsEvents",
+    "fallbackPolling": "dynamicpriority",
+    "synchronousWatchDirectory": false,
+    "excludeDirectories": ["**/node_modules"]
+  }
+}
